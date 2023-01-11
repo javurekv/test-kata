@@ -1,10 +1,10 @@
 # GithubKata
 
-The application is following a `The Feature Modules` structure for the folders.
-Material is using for menu component.
-Application is using mocked data with place in `mock` folder.
-The app has decomposed component, one service for mock data several custom interfaces.
-The app is responsible and tested on emulators.
+- The application is following a `The Feature Modules` structure for the folders.
+- Material is using for menu component.
+- Application is using mocked data with place in `mock` folder.
+- The app has decomposed component, one service for mock data several custom interfaces.
+- The app is responsible and tested on emulators.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
 
