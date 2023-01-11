@@ -1,0 +1,9 @@
+<nav class="menu">
+  <ul>
+    <li *ngFor="let menuItem of menuList">
+      <a routerLink="/detailed-page/{{menuItem.id}}" routerLinkActive="active">
+        {{menuItem.organization}} / {{menuItem.name}} ({{menuItem.stars}})
+      </a>
+    </li>
+  </ul>
+</nav>

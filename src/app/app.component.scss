@@ -1,0 +1,21 @@
+mat-sidenav-container {
+  height: 100%;
+}
+
+mat-sidenav-content {
+  padding: 20px;
+}
+
+mat-sidenav {
+  width: 300px;
+
+  &.mobile {
+    width: 100%;
+  }
+}
+
+.sidenav-content {
+  padding: 50px 2em 3em;
+  max-width: 50em;
+  margin: 0 auto;
+}

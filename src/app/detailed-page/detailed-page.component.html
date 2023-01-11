@@ -1,0 +1,10 @@
+<div class="repo" *ngIf="repo$ | async">
+
+  <ng-container [ngTemplateOutlet]="outlet" [ngTemplateOutletContext]="{repo: repo$ | async}"></ng-container>
+
+  <ng-template #outlet let-repo='repo'>
+    <h2 class="title">{{repo.title}}</h2>
+    <div class="details"> {{repo.details}} </div>
+    <app-readme [readme]="repo.readme"></app-readme>
+  </ng-template>
+</div>
